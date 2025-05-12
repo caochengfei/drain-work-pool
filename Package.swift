@@ -12,6 +12,11 @@ let package = Package(
         .library(
             name: "WorkPoolDraning",
             targets: ["WorkPoolDraning"]),
+        .library(
+            name: "WorkPoolDraningStatic",
+            type: .static,
+            targets: ["WorkPoolDraning"]),
+
     ],
     dependencies: [],
     targets: [
